@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/k3v-d3v/url-shortener/issues"
   },
-  "homepage": "https://github.com/k3v-d3v/url-shortener#readme"
+  "homepage": "https://github.com/k3v-d3v/url-shortener#readme",
+  "dependencies": {
+    "@prisma/client": "6.3.1",
+    "express": "4.21.2",
+    "nanoid": "5.0.9"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.0",
+    "@types/node": "22.13.1",
+    "prisma": "6.3.1"
+  }
 }
